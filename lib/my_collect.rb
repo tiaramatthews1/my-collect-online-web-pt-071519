@@ -6,4 +6,3 @@ end
 
 def my_collect
   
-  
