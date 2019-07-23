@@ -6,7 +6,7 @@ end
 
 def my_collect
    i = 0
-  collection = []
+  empty = []
   while i < array.length
     collection << 
     yield(array[i])
