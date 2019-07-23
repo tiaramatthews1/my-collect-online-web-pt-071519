@@ -5,5 +5,5 @@ my_collect(collection) do |lang|
 end
 
 def my_collect
-  x = 0
+  
   
