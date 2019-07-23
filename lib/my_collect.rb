@@ -5,12 +5,12 @@ my_collect(collection) do |lang|
 end
 
 def my_collect
-   x = 0
+   counter = 0
   empty_array = []
   while x < array.length
     collection << 
     yield(array[x])
-    x += 1
+    counter += 1
   end
   collection
 end
